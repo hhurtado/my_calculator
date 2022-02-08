@@ -10,12 +10,17 @@
 		<input type="text" id="n1">
 		<p>
 			<button onclick="double()"> *2 </button>
+			<button onclick="triple()"> *3 </button>
 			<button onclick="cube()"> x^3 </button>
 		</p>
 		<script type="text/javascript">
 			function double() {
 				var num = document.getElementById("n1");
 				num.value = num.value * 2;
+			}
+			function triple() {
+				var num = document.getElementById("n1");
+				num.value = num.value * 3;
 			}
 			function cube() {
 				var num = document.getElementById("n1");
